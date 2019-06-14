@@ -42,7 +42,7 @@ namespace WindowsFormsApplication1
         {
             Graphics g = e.Graphics;
             label1.Text = k + " точка";
-            g.DrawEllipse(pen, x2, y2, 20, 20);
+            g.DrawRectangle(pen, x2, y2, 20, 20);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
